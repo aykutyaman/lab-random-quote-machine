@@ -37,11 +37,12 @@ https://mzl.la/2KmZYyN
 - [x] Identify ui state
 - [x] Manage state with React
 - [x] Add New Quote button
-- [ ] Manage state with redux
-- [ ] Manage events with redux
-- [ ] fetch quote from network with redux-saga
-- [ ] Move initial quote fetching from component to container with recompose
+- [x] Manage state with redux
+- [x] Manage events with redux
+- [x] fetch quote from network with redux-saga
+- [x] Move initial quote fetching from component to container with recompose
 - [ ] Make board responsive
+- [ ] Display a content placeholder while a quote is loading
 - [ ] Tests
 - [ ] Code clean up
 - [ ] README
