@@ -10,7 +10,8 @@
     "react-scripts": "2.1.1",
     "recompose": "^0.30.0",
     "redux": "^4.0.1",
-    "redux-saga": "^0.16.2"
+    "redux-saga": "^0.16.2",
+    "wingcss": "^1.0.0-beta"
   },
   "scripts": {
     "start": "react-scripts start",

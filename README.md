@@ -41,8 +41,10 @@ https://mzl.la/2KmZYyN
 - [x] Manage events with redux
 - [x] fetch quote from network with redux-saga
 - [x] Move initial quote fetching from component to container with recompose
-- [ ] Make board responsive
+- [x] Styling
 - [ ] Display a content placeholder while a quote is loading
 - [ ] Tests
 - [ ] Code clean up
+- [ ] Deploy
+- [ ] CI/CD
 - [ ] README
