@@ -1,11 +1,32 @@
 ## Random Quote Machine
-This is an exercise project with the purpose of having to create a testable, composable, side-effect free front end app with react and redux
+This is an exercise project.
+The main goal is to achive a testable, composable, side-effect free front end app with react and redux
+
+[Deployed app](http://lab-random-quote-machine.surge.sh/)
+
+## Development
+```
+$ yarn start
+```
+
+## Testing
+```
+$ yarn test
+```
+
+## Deploy
+```
+$ yarn build
+$ cd build
+$ surge
+```
 
 ## Requirements
-- clicking new a button a new random quote is displayed
-- ever quote will have a body and author
-- when new quote arrive background color changes
-- user can share a quote on Twitter
+- on first load, quote machine displays a random quote
+- every quote has an author and text element
+- quote machine fetchs a new quote when "New Quote" button is clicked
+- a user shares a quote on Twitter by clicking "Tweet Quote" button
+- quote is centered vertically and horizontaly
 
 ## Technical Decisions
 - create react app (bootstrapping easly front end app with react)
@@ -43,6 +64,5 @@ This is an exercise project with the purpose of having to create a testable, com
 - [x] Styling
 - [x] Tests
 - [x] Code clean up
-- [ ] Deploy
-- [ ] CI/CD
-- [ ] README
+- [x] Deploy
+- [x] README
