@@ -3,7 +3,8 @@ import { compose, lifecycle } from 'recompose';
 import { fetch } from './actions';
 import App from './App';
 
-const mapStateToProps = ({ author, text }) => ({ author, text })
+// export for testing purposes only
+export const mapStateToProps = ({ author, text }) => ({ author, text })
 
 export default compose(
   connect(mapStateToProps, { fetch }),

@@ -21,12 +21,11 @@ This is an exercise project with the purpose of having to create a testable, com
 - API calls to forismatic (quotes source)
 
 ## Test plan
-https://mzl.la/2KmZYyN
-- Shallow component testing (Quote Component should render with quote prop body and quote author)
-- Testin component callback (Quote Component fires callback passed as prop, when clicked "random quote" button)
-- Test redux connected component/container testing
-- Test action creator
-- Test quote reducer
+- Action creators
+- Async action creators (sagas)
+- Reducers
+- Components
+- Connected components
 
 ## Tasks
 - [x] Understand requirements
@@ -42,8 +41,7 @@ https://mzl.la/2KmZYyN
 - [x] fetch quote from network with redux-saga
 - [x] Move initial quote fetching from component to container with recompose
 - [x] Styling
-- [ ] Display a content placeholder while a quote is loading
-- [ ] Tests
+- [x] Tests
 - [ ] Code clean up
 - [ ] Deploy
 - [ ] CI/CD
