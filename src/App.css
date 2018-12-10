@@ -27,7 +27,6 @@ body {
     border-radius: 4px;
     overflow: hidden;
     padding: 35px;
-
     background: #FAFAFA;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 0.5rem;
@@ -41,7 +40,6 @@ footer {
     font-weight: 500;
     font-size: 1.75em;
     color: rgb(52, 34, 36);
-
     transition: background .25s ease-in-out;
    -moz-transition: background .25s ease-in-out;
    -webkit-transition: background .25s ease-in-out;

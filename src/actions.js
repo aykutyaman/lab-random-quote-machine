@@ -1,5 +1,1 @@
-export function fetch() {
-  return {
-    type: 'FETCH'
-  }
-}
+export const fetch = () => ({ type: 'FETCH' })

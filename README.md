@@ -42,7 +42,7 @@ This is an exercise project with the purpose of having to create a testable, com
 - [x] Move initial quote fetching from component to container with recompose
 - [x] Styling
 - [x] Tests
-- [ ] Code clean up
+- [x] Code clean up
 - [ ] Deploy
 - [ ] CI/CD
 - [ ] README

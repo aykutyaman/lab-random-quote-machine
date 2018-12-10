@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
 
 const App = ({ text, author, fetch }) => (
   <div className="App" id="quote-box">
@@ -13,6 +13,6 @@ const App = ({ text, author, fetch }) => (
     </div>
     <div>by <a href="https://github.com/aykutyaman">Aykut Yaman</a></div>
   </div >
-);
+)
 
-export default App;
+export default App

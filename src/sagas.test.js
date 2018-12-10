@@ -31,5 +31,4 @@ test('requestSaga', () => {
 
   // should be done
   expect(gen.next().done).toBe(true)
-
 })

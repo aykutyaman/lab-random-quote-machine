@@ -12,8 +12,8 @@ const reducer = (state = initialState, action) => {
         text: action.quoteText
       }
     default:
-      return state;
+      return state
   }
 }
 
-export default reducer;
+export default reducer
